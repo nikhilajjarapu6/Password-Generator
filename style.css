@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    height: 100vh;
+    margin: 0;
+    background-image: url(./background.webp);
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    background: #fff;
+    height: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header{
+    position: absolute;
+    top: 24.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    background-color:rgb(5, 46, 122);
+    border-radius: 8px;
+    color:oldlace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group input:focus {
+    border-color:lightblue;
+    box-shadow: none;
+
+}
+#button-addon2 {
+    background-color:#0056b3;;
+    color: white;
+}
+#button-addon2:hover {
+    background-color: #007bff;
+}
+#button-copy{
+    background-color:#0056b3;;
+    color: white;
+}
+#button-copy:hover{
+    background-color: #007bff;
+}
+#generated-password {
+    background-color: #e9ecef; /* Slightly gray background for read-only input */
+}
+.icon{
+    font-size: 70px;
+    margin-top: -90px;
+}
+
+.author {
+    position: absolute;
+    top: 260px;
+    background-color: none;
+    padding: 10px;
+}
+.author:hover{
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+.author a {
+    text-decoration: none;
+    color:orange;
+    margin: 5px;
+}
