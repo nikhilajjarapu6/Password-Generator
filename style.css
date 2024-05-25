@@ -15,7 +15,7 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 500px;
+    width: 500px;
     background: #fff;
     height: 320px;
     padding: 20px;
@@ -64,6 +64,7 @@ body {
 .icon{
     font-size: 70px;
     margin-top: -90px;
+    margin-bottom: 10px;
 }
 
 .author {
@@ -80,4 +81,41 @@ body {
     text-decoration: none;
     color:orange;
     margin: 5px;
+}
+
+@media (max-width: 410px){
+    .header{
+        width: 330px;
+        height: 50px;
+    }
+    .container {
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        width: 330px;
+        background: #fff;
+        height: 320px;
+    }
+    .icon{
+        font-size: 60px;
+        margin-top: -90px;
+    }
+}
+@media (min-width: 420px) and (max-width :900px){
+    .header{
+        width: 330px;
+        height: 50px;
+        position: absolute;
+        top: 33.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container {
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        width: 330px;
+        background: #fff;
+        height: 320px;
+    }
 }
